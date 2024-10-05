@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function change(e)
+    {
+        //let inputText = prompt('텍스트 입력');
+        //let p1 = document.getElementById("p1");
+        //p1.innerHTML = inputText;
+        e.innerHTML = prompt('텍스트 입력');
+    }
+</script>
+<body>
+    <h3>innerHTML</h3>
+    <hr>
+    <p id="p1" onclick="change(this)">이번 여름에는 어디로 여행을 갈까요?</p>
+</body>
+</html>
